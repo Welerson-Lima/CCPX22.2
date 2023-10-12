@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #FFD900;
+}
+
+#logo{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+#menu-info{
+    background-color: #514988;
+    width: 50%;
+}
+
+#title-info{
+    color: #FFD900;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+section h3, p{
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+#countdown{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #514988;
+}
+
+#title-video{
+    color: #E33881;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+video{
+    margin-left: 10px;
+}
+
+#title-cards{
+    color: #FFD900;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 30px;
+}
+
+img{
+    margin-top: 20px;
+    
+    
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    padding-bottom: 30px;
+    
+}
+
+button{
+    background-color: #514988 ;
+    color: #FFF;
+    width: 400px;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 150px;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    
+    
+}
+
+button:hover{
+    cursor: pointer;
+    color: #FFD900;
+}
